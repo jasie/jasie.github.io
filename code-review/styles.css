@@ -1,5 +1,9 @@
 html, body { width: 100%; }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #00517c;
   box-sizing: border-box;
@@ -50,6 +54,16 @@ a:hover {
   text-decoration: underline;
 }
 
+nav {
+  margin: 2em 0;
+}
+nav a {
+  margin-left: 1em;
+}
+nav a:first-child {
+  margin-left: 0;
+}
+
 .sources {
-	font-size: 0.875rem;
+  font-size: 0.875rem;
 }
