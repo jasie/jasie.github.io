@@ -1,4 +1,10 @@
-html, body { width: 100%; }
+html, body {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: black;
@@ -9,6 +15,16 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: white;
+}
+
+nav {
+	margin: 2em 0;
+}
+nav a {
+	margin-left: 2em;
+}
+nav a:first-child {
+	margin-left: 0;
 }
 
 footer {
