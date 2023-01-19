@@ -1,0 +1,135 @@
+<!doctype html>
+
+<html lang="de">
+<head>
+  <title>Talk: Test Driven Development | JaSie</title>
+  
+  <meta charset="utf-8">
+
+  <meta name="description" content="Hallo Entwickler! To TDD or not to TDD ;-)">
+  <meta name="author"      content="JaSie">
+  <meta name="robots"      content="none">
+  <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  
+  <!-- https://cards-dev.twitter.com/validator -->
+  <meta name="twitter:title" content="Talk: Test Driven Development - Lass es krachen!"> <!-- Max. 70 characters -->
+  <meta name="twitter:description" content="Abstract, Slides-Download, Quellen &amp; weiterführende Links"> <!-- Max. 200 characters -->
+  <meta name="twitter:image" content="https://jasie.de/tdd/..."> <!-- at least 280px in width, at least 150px in height, less than 1MB in size -->
+  <meta name="twitter:image:alt" content="Screenshot der Titelfolie des Talks">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- meta name="twitter:site" content="@website-username" --> <!-- for https://dev.twitter.com/cards/analytics -->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+	  <h1>Test Driven Development</h1>
+	  
+	  <h2>Lass es krachen!</h2>
+	  
+	  <p>
+		Autor: <a href="http://jasie.de/" title="&rarr; jasie.de">JaSie</a>
+		| <a href="https://twitter.com/ja_sie">twitter.com/ja_sie</a> &bull; mail@jasie.de
+	  </p>
+	  <!-- p>
+		Download: <a href="tdd_jasie_2023.pdf">tdd_jasie_2023.pdf</a> (2.? MB)
+	  </p -->
+	  
+	  <h3>Abstract</h3>
+	  
+	  <p>
+		‘Oh verdammt, ich muss noch die Tests schreiben’ – weckt das gewisse Erinnerungen in dir?
+		Mach doch Schluss damit und lass es von Anfang an krachen ;-)<br>
+		<br>
+		Test-driven Development (TDD) ist ein wesentlicher Bestandteil des Extreme Programming
+		und steht für testgetriebene Entwicklung. Dabei codest du die Software-Tests konsequent
+		VOR dem eigentlichen Produktivcode. Schreibst du den Test zuerst, wird also die Schnittstelle
+		der zu testenden Komponente benutzt, bevor sie tatsächlich existiert. Äh bitte was?!<br>
+		In meinem Vortrag werde ich zeigen, wie das möglich ist, wozu TDD gut sein soll und wie man
+		diese agile Coding Methode erlernen kann. Finde heraus, ob es sich lohnt, TDD mal auszuprobieren!
+
+	  </p>
+	  
+	  <!-- h3>TDD Code Katas</h3>
+	  
+	  <ol class="sources">
+		  <li>
+		   The Upsource Blog: <strong>What to look for in a Code Review</strong> | Trisha Gee, 2015<br>
+		  <a href="https://blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review"
+			>blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review/</a> ff<br>
+		  <a href="https://leanpub.com/whattolookforinacodereview"
+			>leanpub.com/whattolookforinacodereview</a>
+		</li>
+	  </ol>
+
+	  <h3>Quellen</h3>
+	   
+	  <ol class="sources">
+		<li>
+		   The Upsource Blog: <strong>What to look for in a Code Review</strong> | Trisha Gee, 2015<br>
+		  <a href="https://blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review"
+			>blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review/</a> ff<br>
+		  <a href="https://leanpub.com/whattolookforinacodereview"
+			>leanpub.com/whattolookforinacodereview</a>
+		</li>
+		<li>
+		   The Upsource Blog: <strong>Code Review Best Practices</strong> | Trisha Gee, 2018<br>
+		  <a href="https://blog.jetbrains.com/upsource/2018/08/30/code-review-best-practices"
+			>blog.jetbrains.com/upsource/2018/08/30/code-review-best-practices/</a>
+		</li>
+		<li>
+		   The Overflow: <strong>How to Make Good Code Reviews Better</strong> | Gergely Orosz, 2019<br>
+		  <a href="https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better"
+			>stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/</a>
+		</li>
+		<li>
+		   itemis: <strong>10 Best Practices für Code-Reviews, die Spaß machen</strong> | Sascha Bleidner, 2019<br>
+		  <a href="https://blogs.itemis.com/10-best-practices-fuer-code-reviews-die-spass-machen"
+			>blogs.itemis.com/10-best-practices-fuer-code-reviews-die-spass-machen</a>
+		</li>
+		<li>
+		   <strong>How to Do Code Reviews Like a Human</strong> | Michael Lynch, 2017<br>
+		  <a href="https://mtlynch.io/human-code-reviews-1"
+			>mtlynch.io/human-code-reviews-1/</a>
+		</li>
+		<li>
+		   Atlassian: <strong>Why code reviews matter (and actually save time!)</strong> | Dan Radigan<br>
+		  <a href="https://www.atlassian.com/agile/software-development/code-reviews"
+			>atlassian.com/agile/software-development/code-reviews</a>
+		</li>
+		<li>
+		   sd&m Conference: <strong>Reviews and inspections / A History of Software Inspections</strong> | Michael Fagan, 2001<br>
+		  <a href="http://www.mfagan.com/pdfs/software_pioneers.pdf"
+			>mfagan.com/pdfs/software_pioneers.pdf</a>
+		</li>
+		<li>
+		   The Space Blog: <strong>Best Code Review Tools for 2022 ‒ Survey Results</strong> | Evgenia Verbina, 2021<br>
+		  <a href="https://blog.jetbrains.com/space/2021/12/15/best-code-review-tools/"
+			>blog.jetbrains.com/space/2021/12/15/best-code-review-tools</a>
+		</li>
+		<li>
+		   <strong>OWASP Code Review Guide</strong> | Larry Conklin and Gary Robinson <br>
+		  <a href="https://owasp.org/www-pdf-archive/OWASP_Code_Review_Guide_v2.pdf"
+			>owasp.org/www-pdf-archive/OWASP_Code_Review_Guide_v2.pdf</a>
+		</li>
+		<li>
+		   Medium: <strong>Code Reviews Code of Conduct</strong> | Matti Bar-Zeev, 2018<br>
+		  <a href="https://medium.com/front-end-weekly/code-reviews-code-of-conduct-6c78a026ed35"
+			>medium.com/front-end-weekly/code-reviews-code-of-conduct-6c78a026ed35</a>
+		</li>
+		<li>
+		   <strong>Characteristics of Useful Code Reviews: An Empirical Study at Microsoft</strong> | A. Bosu, M. Greiler, C. Bird, 2015<br>
+		  <a href="https://www.amiangshu.com/papers/CodeReview-MSR-2015.pdf"
+			>amiangshu.com/papers/CodeReview-MSR-2015.pdf</a>
+		</li>
+		<li>
+		   Heise: <strong>Nachgebessert: Pull-Request-Workflows in der Praxis</strong> | Jan Petzold, 2019<br>
+		  <a href="https://www.heise.de/ratgeber/Nachgebessert-Pull-Request-Workflows-in-der-Praxis-4341944.html"
+			>heise.de/ratgeber/Nachgebessert-Pull-Request-Workflows-in-der-Praxis-4341944.html</a>
+		</li>
+	  </ol -->
+  </main>
+</body>
+</html>
