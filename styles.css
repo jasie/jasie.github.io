@@ -30,6 +30,7 @@ nav a:first-child {
 footer {
 	text-align: right;
 	margin-top: 5rem;
+	background-color: black;
 }
 
 .twitter-follow-button {
@@ -60,7 +61,7 @@ footer {
 	position: fixed;
 	bottom: 1rem;
 	width: 900px;
-	margin: 0 calc( ( 100vw - 900px ) /2 );
+	margin: 0 calc( ( 100vw - 900px - 100px ) / 2 );
   }
 }
 
