@@ -113,6 +113,9 @@ a.file::before {
 .flright {
 	float: right;
 }
+.clear {
+    clear: both;
+}
 .striked {
     text-decoration: line-through;
 }
