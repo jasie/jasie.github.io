@@ -1,0 +1,18 @@
+form, label {
+    width: calc(100vw - 40px);
+}
+input, textarea, button {
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    line-height: 24px;
+    border: 0;
+    margin: 0 0 10px 0;
+    padding: 4px 6px;
+    background-color: lightgrey;
+}
+
+button {
+    background-color: #17d9f5;
+}
+

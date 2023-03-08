@@ -2,17 +2,24 @@
 
 <html lang="de">
 <head>
-  <title>Nerd Quiz | jasie</title>
+	<title>Nerd Quiz | jasie</title>
   
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <meta name="description" content="11 Fragen aus ">
-  <meta name="author"      content="jasie">
-  <meta name="robots"      content="none">
-  <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="11 Fragen aus SciFi, Fantasy &amp; IT im Stil eines Bar Quiz">
+	<meta name="author"      content="jasie">
+	<meta name="robots"      content="none">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  
+	<meta property="og:type"        content="website">
+	<meta property="og:title"       content="Nerd Quiz | jasie">
+	<meta property="og:description" content="11 Fragen aus SciFi, Fantasy &amp; IT im Stil eines Bar Quiz">
+	<meta property="og:image"       content="https://jasie.de/nerd-quiz/nerd_quiz.png">
+	<meta property="og:image:alt"   content="Nerd Quiz Flyer Vorschau">
+	<meta property="og:image:type"  content="image/png">
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="../styles.css" rel="stylesheet">
+  	<link href="../styles.css" rel="stylesheet">
+  	<link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,36 +27,51 @@
   
 	<h1>Nerd Quiz</h1>
   
-	<h2>11 Fragen aus SciFi, Fantasy &amp; IT im Stil eines Bar Quiz'</h2>
+	<h3>11 Fragen aus SciFi, Fantasy &amp; IT im Stil eines Bar Quiz'</h3>
 	
 	<h3>Hosts: jasie &amp; jaweg</h3>
   
 	<h3>Datum: Donnerstag, 25. Mai 2023, 17 Uhr</h3>
 	
-	<h3>Ort: im Büro von bridgefield</h3>
-	
-	<p>für die developer community, Preis, essen und trinken, begrenzte platz zahl</p>
-	
-	<h3>Anmeldung</h3>
+	<h3>
+		Ort: im Büro von <a href="https://goo.gl/maps/YnFHbQCqb52ERCre6" title="bridgefield by Google Maps">bridgefield</a>
+	</h3>
+
+	  <nav>
+		  <a href="#anmeldung">Anmeldung</a> ↓
+	  </nav>
+
+	<p>
+	  <a href="nerd_quiz_flyer.png"><img src="nerd_quiz_flyer.png" alt="Nerd Quiz Flyer" width="100%" /></a>
+	</p>
+
+	<h3 id="anmeldung">Anmeldung</h3>
 	
 	<form
-  action="https://formspree.io/f/moqzwgbl"
-  method="POST"
-><label>
-    Your email:
-    <input type="text" name="name" placeholder="dein Name">
-  </label>
-  <label>
-    Your email:
-    <input type="email" name="email" placeholder="deine E-Mail">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message" placeholder="deine Nachricht"></textarea>
-  </label>
+		action="https://formspree.io/f/moqzwgbl"
+		method="POST">
+		<label>
+			<input type="text" name="name" placeholder="dein Name" required>
+		</label><br>
 
-  <button type="submit">Send</button>
-</form>
+		<label>
+			<input type="email" name="email" placeholder="deine E-Mail" required>
+		</label><br>
+
+		<label>
+			<textarea name="message" placeholder="deine Nachricht (optional)"></textarea>
+		</label><br>
+
+		<button type="submit">Anmeldung abschicken</button>
+	</form>
+	
+	<p>
+		<i>Alle von dir übermittelten Daten werden nach dem Quiz gelöscht und ausschließlich für das Quiz verwendet.</i>
+	</p>
+
+	<p>
+		<a href="https://jasie.de/#nerdquiz">Vergangene Nerd Quizze</a> &bull; <a href="../datenschutz.html">Datenschutzerklärung</a>
+	</p>
 
   </main>
 </body>
