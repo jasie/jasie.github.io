@@ -1,5 +1,5 @@
-form, label {
-    width: calc(100vw - 40px);
+form {
+    width: calc(100vw - 57px);
 }
 input, textarea, button {
     width: 100%;
@@ -22,7 +22,7 @@ img {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    form, label {
+    form {
         width: 100%;
     }
 
@@ -40,7 +40,7 @@ img {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-     form, label {
+     form {
         width: 60%;
     }
 }
