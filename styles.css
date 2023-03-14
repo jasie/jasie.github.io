@@ -20,6 +20,20 @@ body {
   color: white;
 }
 
+h1, h2, h3 {
+  line-height: 1.2;
+}
+h1 {
+  font-size: 1.7rem;
+}
+h2 {
+  font-size: 1.3rem;
+}
+h3 {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
 nav {
 	margin: 2em 0;
 }
@@ -34,6 +48,10 @@ footer {
 	text-align: right;
 	margin-top: 5rem;
 	background-color: black;
+}
+footer a {
+	padding: 4px 0;
+	display: inline-block;
 }
 
 .twitter-follow-button {
@@ -75,13 +93,6 @@ footer {
 /* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */
 
-h1, h2, h3 {
-  line-height: 1.2;
-}
-h3 {
-  margin-top: 2rem;
-}
-
 ul {
   padding-left: 1em;
 }
@@ -100,7 +111,7 @@ a:hover {
 a[href*="//"]:not([href*="jasie.de"])::after {
 	content: "\2197";
 	font-size: 0.8rem;
-	padding-left: 7px;
+	padding-left: 3px;
 }
 a.img-link::after {
 	content: none !important;
