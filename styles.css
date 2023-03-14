@@ -34,14 +34,16 @@ h3 {
   margin-top: 2rem;
 }
 
-nav {
-	margin: 2em 0;
-}
 nav a {
 	margin-left: 2em;
 }
 nav a:first-child {
 	margin-left: 0;
+}
+
+h1, nav {
+	margin: 2rem 0;
+	line-height: 1.2rem;
 }
 
 footer {
@@ -54,9 +56,8 @@ footer a {
 	display: inline-block;
 }
 
-.twitter-follow-button {
-	float: left;
-	margin-left: 1rem;
+.quizlist {
+	margin-bottom: 100px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
