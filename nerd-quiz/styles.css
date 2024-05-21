@@ -26,11 +26,11 @@ img {
         width: 100%;
     }
 
-    .flleft {
+    .fl-left {
         width: 65%;
         padding-right: 5%;
     }
-    .flright {
+    .fl-right {
         width: 35%;
     }
     img {

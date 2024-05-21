@@ -56,7 +56,7 @@ footer a {
 	display: inline-block;
 }
 
-.quizlist {
+.quiz-list {
 	margin-bottom: 100px;
 }
 
@@ -123,10 +123,10 @@ a.file::before {
 	padding-right: 7px;
 }
 
-.flleft {
+.fl-left {
 	float: left;
 }
-.flright {
+.fl-right {
 	float: right;
 }
 .clear {
